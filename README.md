@@ -1,15 +1,16 @@
-Comfy IDE for Python 
+Comfy IDE for Python <br>
 
-VIM config: 
-Git integration (vim-fugitive)
-Run Python script shortcut (F5) 
-Autocomplete and Linting (coc.nvim)
-Fuzzy file search  (fzf)
-Map <ESC> to either jj, jk, kj, kk or ll to switch mode
-Save/Write (space + s)
-Toggle word wrap (space + w)
-Exit (Shift + z + z (default))
-File system explorer Nerd Tree (F2)
-Easy window navigation (ctrl + h, ctrl + l)
-Faster cursor movement (ctrl + j, ctrl + k)
+VIM config: <br>
+
+Git integration (vim-fugitive)<br>
+Run Python script shortcut (F5) <br>
+Autocomplete and Linting (coc.nvim)<br>
+Fuzzy file search  (fzf)<br>
+Map <ESC> to either jj, jk, kj, kk or ll to switch to normal<br>
+Save/Write (space + s)<br>
+Toggle word wrap (space + w)<br>
+Exit (Shift + z + z (default))<br>
+File system explorer Nerd Tree (F2)<br>
+Easy window navigation (ctrl + h, ctrl + l)<br>
+Faster cursor movement (ctrl + j, ctrl + k)<br>
 
