@@ -15,8 +15,6 @@ nmap <silent> <leader>w :set invwrap<cr>
 inoremap jj <ESC>
 inoremap jk <ESC>
 inoremap kj <ESC>
-inoremap kk <ESC>
-inoremap ll <ESC>
 
 "comfy remaps
 "yank from current til end of line
