@@ -6,7 +6,7 @@ Git integration (vim-fugitive)<br>
 Run Python script shortcut (F5) <br>
 Autocomplete and Linting (coc.nvim)<br>
 Fuzzy file search  (fzf)<br>
-Map <ESC> to either jj, jk, kj, kk or ll to switch to normal<br>
+Map <ESC> to either jj, jk, kj to switch to normal<br>
 Save/Write (space + s)<br>
 Toggle word wrap (space + w)<br>
 Exit (Shift + z + z (default))<br>
