@@ -9,8 +9,6 @@ Move right: alt + l <br>
 
 Move down 5 lines: ctrl + j <br> 
 Move up 5 lines: ctrl + k <br>
-Move left 5 lines: ctrl + h <br>
-Move right 5 lines: ctrl + l <br>
 
 Extensions:
 Code Runner, FontSize Shortcuts, Jupyter, <br>
