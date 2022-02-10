@@ -1,0 +1,161 @@
+{
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "jupyter-notebook": "right"
+    },
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}$",
+    "editor.cursorBlinking": "expand",
+    "multiCommand.commands": [
+        {
+            "command": "clear_vsc",
+            "sequence": [
+                "workbench.action.toggleActivityBarVisibility",
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        }
+    ],
+    "editor.glyphMargin": true,
+    "workbench.iconTheme": "vscode-great-icons",
+    "window.customMenuBarAltFocus": false,
+    "window.enableMenuBarMnemonics": false,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.showRunIconInEditorTitleMenu": false,
+    "code-runner.showExecutionMessage": false,
+    "code-runner.showRunCommandInExplorerContextMenu": false,
+    "code-runner.clearPreviousOutput": true,
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "terminal.integrated.inheritEnv": false,
+    "tabnine.experimentalAutoImports": true,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "editor.parameterHints.enabled": false,
+    "editor.fontFamily": "'monospace', chiller",
+    "editor.wordWrap": "on",
+    "editor.lineHeight": 0,
+    "editor.fontSize": 16,
+    "glassit.alpha": 253,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontSize": 14,
+    "workbench.colorCustomizations": {
+        "terminal.foreground": "#66FF66",
+        "terminalCursor.background": "#D5C4A1",
+        "terminalCursor.foreground": "#D5C4A1",
+        "terminal.ansiBlack": "#32302F",
+        "terminal.ansiBlue": "#83A598",
+        "terminal.ansiBrightBlack": "#665C54",
+        "terminal.ansiBrightBlue": "#83A598",
+        "terminal.ansiBrightCyan": "#8EC07C",
+        "terminal.ansiBrightGreen": "#B8BB26",
+        "terminal.ansiBrightMagenta": "#D3869B",
+        "terminal.ansiBrightRed": "#FB4934",
+        "terminal.ansiBrightWhite": "#FBF1C7",
+        "terminal.ansiBrightYellow": "#FABD2F",
+        "terminal.ansiCyan": "#8EC07C",
+        "terminal.ansiGreen": "#B8BB26",
+        "terminal.ansiMagenta": "#D3869B",
+        "terminal.ansiRed": "#FB4934",
+        "terminal.ansiWhite": "#D5C4A1",
+        "terminal.ansiYellow": "#FABD2F",
+        "statusBar.background": "#1A1A1A",
+        "statusBar.noFolderBackground": "#212121",
+        "statusBar.debuggingBackground": "#263238",
+        "editorLineNumber.activeForeground": "#FFFFFF",
+        "notebook.cellBorderColor": "#D5C4A1",
+        "notebook.focusedEditorBorder": "#8EC07C",
+        "editorCursor.foreground": "#ff0",
+        "editor.selectionBackground": "#118b2a", 
+        "editor.selectionHighlightBackground": "#ff0000", 
+        "editor.findMatchBackground": "#00cc44a8",
+        "editor.findMatchHighlightBackground": "#ff7b00a1" 
+    },
+    "python.formatting.provider": "black",
+    "terminal.integrated.tabs.description": "",
+    "terminal.integrated.tabs.title": "${task}${separator}${local}${separator}${cwdFolder}",
+    "workbench.startupEditor": "none",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "glassit.step": 2,
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "bracketPairColorizer.depreciation-notice": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.confirmSync": false,
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "python": "~/anaconda3/envs/coc/bin/python"
+    },
+    "breadcrumbs.enabled": false,
+    "python.autoComplete.addBrackets": true,
+    "python.analysis.completeFunctionParens": true,
+    "editor.formatOnSave": true,
+    "terminal.integrated.fontFamily": "Inconsolata",
+    "editor.acceptSuggestionOnEnter": "smart",
+    "github.copilot.enable": {
+        "*": false,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false,
+        "python": false
+    },
+    "files.autoGuessEncoding": true,
+    "jupyter.generateSVGPlots": true,
+    "notebook.cellToolbarVisibility": "hover",
+    "python.defaultInterpreterPath": "/home/michaelgru/anaconda3/envs/coc/bin/python",
+    "jupyter.askForKernelRestart": false,
+    "editor.cursorWidth": 3,
+    "editor.renderLineHighlight": "none",
+    "notebook.lineNumbers": "on",
+    "editor.inlineSuggest.enabled": true,
+    "editor.tokenColorCustomizations": {
+        "[Dark++]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "comment",
+                        "string.quoted.docstring.multi.python"
+                    ],
+                    "settings": {
+                        "fontStyle": "italic",
+                        "foreground": "#bbb9b5"
+                    }
+                },
+                {
+                    "scope": [
+                        "keyword.operator.assignment.python"
+                    ],
+                    "settings": {
+                        "foreground": "#bbb9b5"
+                    }
+                }
+            ]
+        },
+        "[Gruvbox Dark Hard]": {}
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "[Dark++]": {
+            "rules": {
+                "variable.declaration": "#ebdbb2",
+                "variable": "#ebdbb2",
+                "parameter.declaration": "#ebdbb2",
+                "parameter": "#ebdbb2"
+            }
+        }
+    },
+    "notebook.undoRedoPerCell": false,
+    "notebook.output.textLineLimit": 500,
+    "window.menuBarVisibility": "toggle",
+    "files.autoSave": "afterDelay",
+    "editor.renderWhitespace": "none",
+    "editor.fontWeight": "bold",
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Monokai Dark Pycharm-flymin",
+    "workbench.useExperimentalGridLayout": true,
+    "customizeUI.activityBar": "bottom",
+    "customizeUI.activityBarHideSettings": true,
+    "explorer.confirmDelete": false,
+    "editor.cursorSmoothCaretAnimation": true
+}
