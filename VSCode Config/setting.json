@@ -1,4 +1,11 @@
 {
+    "window.zoomLevel": 1,
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Gruvbox Dark Hard-flymin",
+    "workbench.startupEditor": "none",
+    "editor.lineHeight": 0,
+    "editor.fontSize": 15,
+    "r.bracketedPaste": true,
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
     },
@@ -6,7 +13,7 @@
         "jupyter-notebook": "right"
     },
     "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}$",
-    "editor.cursorBlinking": "expand",
+    "editor.cursorBlinking": "solid",
     "multiCommand.commands": [
         {
             "command": "clear_vsc",
@@ -17,24 +24,13 @@
         }
     ],
     "editor.glyphMargin": true,
-    "workbench.iconTheme": "vscode-great-icons",
     "window.customMenuBarAltFocus": false,
     "window.enableMenuBarMnemonics": false,
-    "code-runner.saveFileBeforeRun": true,
-    "code-runner.showRunIconInEditorTitleMenu": false,
-    "code-runner.showExecutionMessage": false,
-    "code-runner.showRunCommandInExplorerContextMenu": false,
-    "code-runner.clearPreviousOutput": true,
     "editor.scrollbar.verticalScrollbarSize": 0,
     "terminal.integrated.inheritEnv": false,
-    "tabnine.experimentalAutoImports": true,
-    "kite.showWelcomeNotificationOnStartup": false,
     "editor.parameterHints.enabled": false,
     "editor.fontFamily": "'monospace', chiller",
     "editor.wordWrap": "on",
-    "editor.lineHeight": 0,
-    "editor.fontSize": 16,
-    "glassit.alpha": 253,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "terminal.integrated.cursorBlinking": true,
@@ -65,41 +61,27 @@
         "editorLineNumber.activeForeground": "#FFFFFF",
         "notebook.cellBorderColor": "#D5C4A1",
         "notebook.focusedEditorBorder": "#8EC07C",
+        "notebook.cellEditorBackground": "#272822",
+        "editor.background": "#212121",
         "editorCursor.foreground": "#ff0",
-        "editor.selectionBackground": "#118b2a", 
-        "editor.selectionHighlightBackground": "#ff0000", 
+        "editor.selectionBackground": "#118b2a",
+        "editor.selectionHighlightBackground": "#ff0000",
         "editor.findMatchBackground": "#00cc44a8",
-        "editor.findMatchHighlightBackground": "#ff7b00a1" 
+        "editor.findMatchHighlightBackground": "#ff7b00a1",
     },
     "python.formatting.provider": "black",
     "terminal.integrated.tabs.description": "",
     "terminal.integrated.tabs.title": "${task}${separator}${local}${separator}${cwdFolder}",
-    "workbench.startupEditor": "none",
     "git.autofetch": true,
     "git.enableSmartCommit": true,
-    "glassit.step": 2,
     "terminal.external.osxExec": "iTerm.app",
-    "terminal.integrated.defaultProfile.linux": "zsh",
-    "bracketPairColorizer.depreciation-notice": false,
     "liveServer.settings.donotShowInfoMsg": true,
     "git.confirmSync": false,
-    "code-runner.executorMap": {
-        "javascript": "node",
-        "python": "~/anaconda3/envs/coc/bin/python"
-    },
     "breadcrumbs.enabled": false,
-    "python.autoComplete.addBrackets": true,
     "python.analysis.completeFunctionParens": true,
     "editor.formatOnSave": true,
     "terminal.integrated.fontFamily": "Inconsolata",
     "editor.acceptSuggestionOnEnter": "smart",
-    "github.copilot.enable": {
-        "*": false,
-        "yaml": false,
-        "plaintext": false,
-        "markdown": false,
-        "python": false
-    },
     "files.autoGuessEncoding": true,
     "jupyter.generateSVGPlots": true,
     "notebook.cellToolbarVisibility": "hover",
@@ -109,8 +91,16 @@
     "editor.renderLineHighlight": "none",
     "notebook.lineNumbers": "on",
     "editor.inlineSuggest.enabled": true,
+    "notebook.undoRedoPerCell": false,
+    "notebook.output.textLineLimit": 500,
+    "window.menuBarVisibility": "toggle",
+    "editor.renderWhitespace": "none",
+    "editor.fontWeight": "bold",
+    "editor.minimap.enabled": false,
+    "explorer.confirmDelete": false,
+    "editor.cursorSmoothCaretAnimation": true,
     "editor.tokenColorCustomizations": {
-        "[Dark++]": {
+        "[Gruvbox Dark Hard-flymin]": {
             "textMateRules": [
                 {
                     "scope": [
@@ -119,7 +109,7 @@
                     ],
                     "settings": {
                         "fontStyle": "italic",
-                        "foreground": "#bbb9b5"
+                        "foreground": "#928374"
                     }
                 },
                 {
@@ -127,35 +117,50 @@
                         "keyword.operator.assignment.python"
                     ],
                     "settings": {
-                        "foreground": "#bbb9b5"
+                        "foreground": "#fb4934"
                     }
-                }
+                },
+                {
+                    "scope": [
+                        "string.quoted.single.python"
+                    ],
+                    "settings": {
+                        "foreground": "#66FF66",
+            
+                    }
+                },
+                {
+                    "scope": ["keyword.control.import.python"],
+                    "settings": {
+                        "foreground": "#fb4934",
+    
+                    }
+                }, 
+                {
+                    "scope": ["storage.type.function.python"],
+                    "settings": {
+                        "foreground": "#fb4934",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope":["entity.name.function"],
+                    "settings": {
+                        "foreground": "#fabd2f",
+                    }
+                },
             ]
-        },
-        "[Gruvbox Dark Hard]": {}
+        }
     },
     "editor.semanticTokenColorCustomizations": {
-        "[Dark++]": {
+        "[Gruvbox Dark Hard-flymin]": {
             "rules": {
                 "variable.declaration": "#ebdbb2",
                 "variable": "#ebdbb2",
-                "parameter.declaration": "#ebdbb2",
-                "parameter": "#ebdbb2"
+                "parameter.declaration": "#b16286",
+                "parameter": "#b16286"
             }
         }
     },
-    "notebook.undoRedoPerCell": false,
-    "notebook.output.textLineLimit": 500,
-    "window.menuBarVisibility": "toggle",
-    "files.autoSave": "afterDelay",
-    "editor.renderWhitespace": "none",
-    "editor.fontWeight": "bold",
-    "editor.minimap.enabled": false,
-    "window.zoomLevel": 1,
-    "workbench.colorTheme": "Monokai Dark Pycharm-flymin",
-    "workbench.useExperimentalGridLayout": true,
-    "customizeUI.activityBar": "bottom",
-    "customizeUI.activityBarHideSettings": true,
-    "explorer.confirmDelete": false,
-    "editor.cursorSmoothCaretAnimation": true
+    "workbench.iconTheme": "vscode-icons",
 }
